@@ -212,6 +212,7 @@ public class LedDigit {
         segmentR2C2 = true;
         segmentR2C3 = true;
 
+        segmentR3C1 = true;
         segmentR3C3 = true;
 
         segmentR4C3 = true;
@@ -220,29 +221,30 @@ public class LedDigit {
 
         segmentR6C3 = true;
 
+        segmentR7C1 = true;
         segmentR7C2 = true;
         segmentR7C3 = true;
         segmentR7C4 = true;
+        segmentR7C5 = true;
     }
 
     /**
      *
      */
     private void displayDigit2() {
-        segmentR1C1 = true;
         segmentR1C2 = true;
         segmentR1C3 = true;
         segmentR1C4 = true;
 
+        segmentR2C1 = true;
         segmentR2C5 = true;
 
         segmentR3C5 = true;
 
-        segmentR4C2 = true;
         segmentR4C3 = true;
         segmentR4C4 = true;
 
-        segmentR5C1 = true;
+        segmentR5C2 = true;
 
         segmentR6C1 = true;
 
@@ -257,24 +259,23 @@ public class LedDigit {
      *
      */
     private void displayDigit3() {
-        segmentR1C1 = true;
         segmentR1C2 = true;
         segmentR1C3 = true;
         segmentR1C4 = true;
 
+        segmentR2C1 = true;
         segmentR2C5 = true;
 
         segmentR3C5 = true;
 
-        segmentR4C2 = true;
         segmentR4C3 = true;
         segmentR4C4 = true;
 
         segmentR5C5 = true;
 
+        segmentR6C1 = true;
         segmentR6C5 = true;
 
-        segmentR7C1 = true;
         segmentR7C2 = true;
         segmentR7C3 = true;
         segmentR7C4 = true;
@@ -284,26 +285,26 @@ public class LedDigit {
      *
      */
     private void displayDigit4() {
-        segmentR1C1 = true;
-        segmentR1C5 = true;
+        segmentR1C4 = true;
 
-        segmentR2C1 = true;
-        segmentR2C5 = true;
+        segmentR2C3 = true;
+        segmentR2C4 = true;
 
-        segmentR3C1 = true;
-        segmentR3C5 = true;
+        segmentR3C2 = true;
+        segmentR3C4 = true;
 
         segmentR4C1 = true;
-        segmentR4C2 = true;
-        segmentR4C3 = true;
         segmentR4C4 = true;
-        segmentR4C5 = true;
 
+        segmentR5C1 = true;
+        segmentR5C2 = true;
+        segmentR5C3 = true;
+        segmentR5C4 = true;
         segmentR5C5 = true;
 
-        segmentR6C5 = true;
+        segmentR6C4 = true;
 
-        segmentR7C5 = true;
+        segmentR7C4 = true;
     }
 
     /**
@@ -319,17 +320,17 @@ public class LedDigit {
         segmentR2C1 = true;
 
         segmentR3C1 = true;
+        segmentR3C2 = true;
+        segmentR3C3 = true;
+        segmentR3C4 = true;
 
-        segmentR4C1 = true;
-        segmentR4C2 = true;
-        segmentR4C3 = true;
-        segmentR4C4 = true;
+        segmentR4C5 = true;
 
         segmentR5C5 = true;
 
+        segmentR6C1 = true;
         segmentR6C5 = true;
 
-        segmentR7C1 = true;
         segmentR7C2 = true;
         segmentR7C3 = true;
         segmentR7C4 = true;
@@ -339,11 +340,10 @@ public class LedDigit {
      *
      */
     private void displayDigit6() {
-        segmentR1C2 = true;
         segmentR1C3 = true;
         segmentR1C4 = true;
 
-        segmentR2C1 = true;
+        segmentR2C2 = true;
 
         segmentR3C1 = true;
 
@@ -379,11 +379,11 @@ public class LedDigit {
 
         segmentR4C3 = true;
 
-        segmentR5C3 = true;
+        segmentR5C2 = true;
 
-        segmentR6C3 = true;
+        segmentR6C2 = true;
 
-        segmentR7C3 = true;
+        segmentR7C2 = true;
     }
 
     /**
@@ -436,11 +436,10 @@ public class LedDigit {
 
         segmentR5C5 = true;
 
-        segmentR6C5 = true;
+        segmentR6C4 = true;
 
         segmentR7C2 = true;
         segmentR7C3 = true;
-        segmentR7C4 = true;
     }
 
     public boolean isSegmentR1C1() {
